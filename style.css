@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container .box__setting {
+  position: relative;
+  border: 1px solid #fdec51;
+  width: 400px;
+  height: 570px;
+  background-color: #fdec51;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+}
+
+.container .box__setting ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box__setting ul.box__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 40px;
+  font-size: 18px;
+}
+
+.container .box__setting ul.box__b0ttom {
+  list-style: none;
+  padding: 20px 5px 20px 130px;
+}
+
+.container .box__setting ul.box__b0ttom a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.container .setting__menu {
+  position: absolute;
+  top: 54%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 20px 15px #2f2f2f;
+          box-shadow: 5px 5px 20px 15px #2f2f2f;
+}
+
+.container .setting__menu .setting__content {
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.container .setting__menu .setting__content .setting__list {
+  display: block;
+  padding-top: 45px;
+  color: #9ea3a8;
+  font-weight: 530;
+  font-size: 12px;
+}
+
+.container .setting__menu .setting__content .setting__list input {
+  display: block;
+  font-size: 14px;
+  font-weight: 530;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+}
+
+.container .setting__menu .setting__content .setting__list .list1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container .header__img {
+  position: absolute;
+  top: 17%;
+  left: 45%;
+}
+
+.container .header__img img {
+  display: block;
+  border: 1px solid transparent;
+  width: 70px;
+  height: 80px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
